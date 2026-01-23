@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#3674B5, #578FCA, #A1E3F9, #D1F8EF);
+    height: 100vh;
+}
+
+.navbar{
+    background-color: #A1E3F9;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px ;
+    /* position: fixed; */
+    width: 100%;
+}
+
+a{
+    color: rgb(0, 21, 78);
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}

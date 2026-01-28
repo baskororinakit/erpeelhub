@@ -1,27 +1,62 @@
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body */
 body {
-    background: linear-gradient(#3674B5, #578FCA, #A1E3F9, #D1F8EF);
-    height: 100vh;
+    /* background: linear-gradient(#3674B5, #578FCA, #A1E3F9, #D1F8EF);
+    height: 100vh; */
 }
 
+/* Navbar */
 .navbar{
-    background-color: #A1E3F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    background: #345e6e;
+    background: linear-gradient(309deg, rgba(52, 94, 110, 1) 19%, rgba(70, 105, 166, 1) 76%);
+
     font-family: Arial, Helvetica, sans-serif;
-    padding: 15px ;
+    padding: 26px 24px;
     /* position: fixed; */
     width: 100%;
 }
 
-a{
-    color: rgb(0, 21, 78);
-    text-decoration: none;
+.navbar h4 { /* erpeelhub text */
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: 'Poppins';
 }
 
-ul {
+.navbar ul li a{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
-    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+}
+
+.navbar ul li a:hover {
+    color: #a6b9dc;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 16px;
+}
+
+/* Section Homepage */
+.homepage {
+    background: linear-gradient(rgba(0, 0, 0, 0.053), rgba(0, 0, 0, 0.53)), url(/assets/images/sekolahmutu.JPG);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
